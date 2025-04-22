@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.bem-vindo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 50vh;
+
+
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../imagens/audi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+}
+
+span {
+  color: #ff3c00
+}
+
+.ver-modelos {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  color: white;
+}
+
+.ver-modelos:hover {
+  transform: scale(1.50);
+  background-color: black;
+  opacity: 90%;
+}
+
+.categorias {
+  background: #fff;
+  padding: 2rem 1rem;
+  min-height: 50vh;
+}
+
+.categorias-imagens {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.categorias-imagens img {
+  width: 100%;
+  height: auto;
+  border-radius: 1.5rem;
+}
+
+.categorias-item {
+  width: 20vw;
+  min-width: 250px;
+  text-align: center;
+}
+
+.categorias-item h3 {
+  font-size: 1.8rem;
+  margin: 0.5rem 0;
+}
+
+.categorias-item p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  /* espaçamento entre os links */
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff3c00;
+}
+
+.bem-vindo h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.bem-vindo h3 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.destaque {
+  background: #f8f8f8;
+  padding: 4rem 2rem;
+}
+
+.destaque h2 {
+  font-size: 2rem;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.destaque-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.destaque-wrapper h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.destaque-conteudo {
+  display: flex;
+  background: #fff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.destaque-item {
+  flex: 1;
+  min-width: 300px;
+}
+
+.destaque-item img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.destaque-descricao {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.destaque-descricao h3 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.destaque-conteudo p {
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+}
+
+.destaque-descricao ul {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  list-style: none;
+  padding: 0;
+}
+
+.destaque-descricao li {
+  margin: 1rem 0;
+}
+
+.destaque-textos {
+  display: flex;
+  gap: 2rem;
+  flex: 1;
+  min-width: 300px;
+}
+
+
+@media (max-width: 768px) {
+  .destaque-conteudo {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .destaque-descricao,
+  .destaque-item {
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .destaque-descricao h3 {
+    font-size: 2rem;
+  }
+
+  .destaque-conteudo p {
+    font-size: 1.4rem;
+  }
+
+  .destaque-descricao ul {
+    font-size: 1.2rem;
+  }
+
+  .categorias-item {
+    width: 40vw;
+  }
+
+  .categorias-item h3 {
+    font-size: 1.5rem;
+  }
+
+  .categorias-item p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .categorias-item {
+    width: 90vw;
+  }
+
+  .categorias-item h3 {
+    font-size: 1.4rem;
+  }
+
+  .categorias-item p {
+    font-size: 0.95rem;
+  }
+}
+
+#active {
+  color: #ff3c00;
+}
+
+.novidade {
+  background: #f8f8f8;
+  padding: 4rem 2rem;
+}
+
+.novidade h2 {
+  font-size: 2rem;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.novidade-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.novidade-wrapper h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.novidade-conteudo {
+  display: flex;
+  background: #fff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.novidade-item {
+  flex: 1;
+  min-width: 300px;
+}
+
+.novidade-item img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.novidade-descricao {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.novidade-descricao h3 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.novidade-conteudo p {
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+}
+
+.novidade-descricao ul {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  list-style: none;
+  padding: 0;
+}
+
+.novidade-descricao li {
+  margin: 1rem 0;
+}
+
+.novidade-textos {
+  display: flex;
+  gap: 2rem;
+  flex: 1;
+  min-width: 300px;
+}
+
+.coluna-esquerda {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.coluna-direita {
+  margin-top: 35px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .novidade-conteudo {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .novidade-descricao,
+  .novidade-item {
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .novidade-descricao h3 {
+    font-size: 2rem;
+  }
+
+  .novidade-conteudo p {
+    font-size: 1.4rem;
+  }
+
+  .novidade-descricao ul {
+    font-size: 1.2rem;
+  }
+
+  .novidade-textos {
+    flex-direction: column;
+  }
+
+  .coluna-direita {
+    margin-top: 2rem;
+  }
+
+}
+
+.rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  min-height: 10vh;
+
+
+}
+
+.rodape p {
+  font-size: 1.5rem;
+  color: white;
+}
