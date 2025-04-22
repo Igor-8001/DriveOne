@@ -122,7 +122,7 @@ html {
 .nav-links {
   display: flex;
   gap: 30px;
-  /* espaçamento entre os links */
+
 }
 
 .nav-links li {
@@ -382,7 +382,7 @@ html {
   box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1390px) {
   .novidade-conteudo {
     flex-direction: column;
     padding: 1.5rem;
