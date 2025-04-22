@@ -232,7 +232,7 @@ html {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1390) {
   .destaque-conteudo {
     flex-direction: column;
     padding: 1.5rem;
