@@ -1,35 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <link rel="icon" type="image/png" href="../imagens/Logo.png">
-    <link rel="stylesheet" href="../css/contato.css"
-    type="text/css">
-</head>
-<body>
-    <header>
-        <nav>
-          <ul class="navbar">
-            <li class="logo">
-              <a href="../index.html">
-                <img src="../imagens/Logo.png" alt="Logo">
-              </a>
-            </li>
-            <div class="nav-links">
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="noticias.html">Noticias</a></li>
-              <li><a href="destaques.html">Destaques</a></li>
-              <li><a href="sobre.html">Sobre</a></li>
-              <li><a href="contato.html" id="active">Contato</a></li>
-            </div>
-          </ul>
-        </nav>
-      </header>
 
-      <footer class="rodape">
-        <p>© Igor Afonso, Todos os Direitos Reservados.</p>
-      </footer>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="icon" type="image/png" href="../imagens/Logo.png">
+  <link rel="stylesheet" href="../css/contato.css" type="text/css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li class="logo">
+          <a href="../index.html">
+            <img src="../imagens/Logo.png" alt="Logo">
+          </a>
+        </li>
+        <div class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="destaques.html">Destaques</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html" id="active">Contato</a></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="contato">
+    <h1>Contate-nos</h1>
+    <div class="contato-conteudo">
+      <div class="contato-infos">
+        <div class="infos">
+          <h3>Telefone:</h3>
+          <p><a href="https://wa.me/5518981535046" target="_blank">(18) 98153-5046</a></p>
+        </div>
+        <div class="infos">
+          <h3>Endereço:</h3>
+          <p><a href="https://www.google.com/maps/place/Rod.+Sen.+Teot%C3%B4nio+Vilela,+3821+-+Alvorada,+Ara%C3%A7atuba+-+SP,+16016-500/@-21.2353074,-50.4095221,18z/data=!4m6!3m5!1s0x949641a319a2c61f:0x81c8071b858a5793!8m2!3d-21.2353048!4d-50.4070031!16s%2Fg%2F11c4r0wwht?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">Rod. Teotônio Vilela, 3821, Jd Alvorada, Araçatuba - SP</a></p>
+        </div>
+
+        <div class="infos">
+          <h3>E-mail:</h3>
+          <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=contato@onedrive.com.br&su=Assunto&body=Mensagem" target="_blank">contato@onedrive.com.br</a></p>
+        </div>
+      </div>
+      <div class="contato-formulario">
+        <h2>Formulario de Contato</h2>
+        <form action="#" method="post">
+          <div class="form-group">
+            <input type="text" id="nome" name="nome" required placeholder="Nome">
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" required placeholder="E-mail">
+          </div>
+          <div class="form-group">
+            <input type="text" id="assunto" name="assunto" placeholder="Assunto">
+          </div>
+          <div class="form-group">
+            <textarea id="mensagem" name="mensagem" required placeholder="Mensagem"></textarea>
+          </div>
+          <button type="submit">Enviar Mensagem</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <p>© Igor Afonso, Todos os Direitos Reservados.</p>
+  </footer>
 </body>
+
 </html>
