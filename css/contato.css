@@ -23,6 +23,16 @@ body {
     padding: 0;
 }
 
+.botao {
+    background: #ff3c00;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 25px;
+    color: white;
+}
+
 span {
     color: #ff3c00
 }

@@ -24,16 +24,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
   min-height: 50vh;
-
-
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../imagens/audi.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
-
 }
 
 .conteudo h3 {

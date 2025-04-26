@@ -23,7 +23,7 @@ span {
     color: #ff3c00
 }
 
-section {
+section .novidades {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
@@ -57,6 +57,42 @@ html {
 
 .nav-links a:hover {
     color: #ff3c00;
+}
+
+.bem-vindo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../imagens/lamborghinij.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+  .bem-vindo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .ver-modelos {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  color: white;
+}
+
+.ver-modelos:hover {
+  transform: scale(1.50);
+  background-color: black;
+  opacity: 90%;
 }
 
 * {
