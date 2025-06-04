@@ -329,3 +329,27 @@ html {
   font-size: 1.5rem;
   color: white;
 }
+
+.novidadesTexto {
+  text-align: center;
+}
+
+th {
+  font-size: 1.8rem;
+}
+
+td {
+  font-size: 1.7rem;
+  padding: 2rem;
+}
+
+table {
+  margin-bottom: 5rem;
+  width: 100%;
+  text-align: center;
+  
+  padding: 2rem;
+  
+  background: #fff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
