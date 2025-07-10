@@ -101,7 +101,7 @@ html {
     font-family: "Montserrat", sans-serif;
 }
 
-#active {
+.active {
     color: #ff3c00;
 }
 

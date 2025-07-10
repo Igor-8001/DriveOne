@@ -259,7 +259,7 @@ html {
     }
 }
 
-#active {
+.active {
     color: #ff3c00;
 }
 

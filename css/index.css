@@ -176,7 +176,7 @@ html {
   color: white;
 }
 
-#active {
+.active {
   color: #ff3c00;
 }
 
