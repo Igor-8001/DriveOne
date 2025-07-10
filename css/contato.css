@@ -54,6 +54,10 @@ header {
 
 }
 
+.navbar a.active {
+  color: #ff3c00 !important;
+}
+
 body {
     background: #111;
 }

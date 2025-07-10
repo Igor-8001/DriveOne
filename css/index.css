@@ -176,8 +176,8 @@ html {
   color: white;
 }
 
-.active {
-  color: #ff3c00;
+.navbar a.active {
+  color: #ff3c00 !important;
 }
 
 .novidade {

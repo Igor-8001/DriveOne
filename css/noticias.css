@@ -55,6 +55,10 @@ header {
 
 }
 
+.navbar a.active {
+  color: #ff3c00 !important;
+}
+
 section {
   min-height: 100vh;
   padding: 12rem 9% 4rem;

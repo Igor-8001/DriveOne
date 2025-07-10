@@ -259,9 +259,10 @@ html {
     }
 }
 
-.active {
-    color: #ff3c00;
+.navbar a.active {
+  color: #ff3c00 !important;
 }
+
 
 .coluna-esquerda {
     flex: 1;

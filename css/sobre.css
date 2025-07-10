@@ -101,8 +101,8 @@ html {
     font-family: "Montserrat", sans-serif;
 }
 
-.active {
-    color: #ff3c00;
+.navbar a.active {
+  color: #ff3c00 !important;
 }
 
 .topo {
