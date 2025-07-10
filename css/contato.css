@@ -1,17 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
 header {
     background-color: #1c1c1c;
     color: #fff;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    position: fixed;
 
+    text-align: center;
+
+    width: 100%;
+
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-body {
-    background: #111;
+.logo {
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    max-width: 50px;
 }
 
 .navbar {
@@ -21,6 +39,23 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.navbar a {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: none;
+
+    color: white;
+
+    margin-left: 2rem;
+
+    padding: 1rem;
+
+}
+
+body {
+    background: #111;
 }
 
 .botao {
@@ -55,37 +90,6 @@ html {
     display: flex;
     gap: 30px;
 
-}
-
-.nav-links li {
-    list-style: none;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-    color: #ff3c00;
-}
-
-* {
-    padding: 0px;
-    margin: 0px;
-    outline: none;
-    text-decoration: none;
-    border: none;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-}
-
-#active {
-    color: #ff3c00;
 }
 
 .rodape {
@@ -200,4 +204,61 @@ html {
 
 .infos {
     margin-bottom: 3rem;
+}
+
+@media (max-width: 920px) {
+    .contato-conteudo {
+        flex-direction: column;
+        align-items: normal;
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        padding: 0rem;
+    }
+
+    table td {
+        font-size: 1.2rem;
+        padding: 1rem 0.2rem;
+    }
+
+    table th {
+        font-size: 1.3rem;
+    }
+
+    .navbar a {
+        margin-left: 0rem;
+
+        padding: 0.5rem;
+
+        font-size: 1rem;
+    }
+
+    .contato-conteudo {
+        flex-direction: column;
+        align-items: normal;
+    }
+}
+
+@media (max-width: 300px) {
+    .active {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    .navbar a {
+        margin-left: 1rem;
+
+        font-size: 1rem;
+
+        padding: 1.5rem 0;
+    }
+
+    .logo {
+        display: none;
+    }
 }
